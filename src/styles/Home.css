@@ -1,0 +1,32 @@
+/* Home.css */
+.container{ 
+  height:100%;
+  display:flex;
+  justify-content:center;
+}
+/* section을 가운데에 배치 높이값 100% */
+
+.loader{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:300;
+}
+
+.movies{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(400px, 1fr)); /*2열, 최소크기가 400px, 최대크기가 1:1크기/ repeat은 반복하는 것*/
+  grid-gap:100px;
+  padding:50px;
+  width:80%;
+  padding-top:70px;
+}
+
+@media screen and (max-width:767px) { /*0~767*/
+  .movies{
+    grid-template-columns:1fr; /*1열*/
+    width:100%;
+  }
+}
