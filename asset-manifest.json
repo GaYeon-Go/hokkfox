@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hokkfox/static/css/main.fc91f75f.css",
+    "main.js": "/hokkfox/static/js/main.3286658f.js",
+    "index.html": "/hokkfox/index.html",
+    "main.fc91f75f.css.map": "/hokkfox/static/css/main.fc91f75f.css.map",
+    "main.3286658f.js.map": "/hokkfox/static/js/main.3286658f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc91f75f.css",
+    "static/js/main.3286658f.js"
+  ]
+}
